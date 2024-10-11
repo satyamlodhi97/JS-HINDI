@@ -37,3 +37,24 @@ console.log(typeof isLoggedIn);//output:-boolean
 console.log(typeof outsideTemp);//output:-object
 console.log(typeof scoreVlue);//output:-number
 console.log(typeof score);//output:-number
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack memory(Primitive):-is me copy milti hai,Heap memory(Nom-primitive):- reference milta hai
+let myYoutubename ="satyamlodhi97"
+let anothername = myYoutubename 
+anothername ="satyamblogger"
+console.log(myYoutubename);
+console.log(anothername);
+
+let user1 ={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let user2 = user1
+
+user2.email = "satyam@google.com"
+console.log(user1.email)
+console.log(user2.email)
