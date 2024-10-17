@@ -1,6 +1,6 @@
-const score = 400
+//const score = 400
 
-const balance = new Number(100)
+//const balance = new Number(100)
 //console.log(balance);//output:-[Number: 100]
 // Number { 100 }
 // ​
@@ -18,11 +18,11 @@ const balance = new Number(100)
 //For use in :- precision value
 
 // toLocaleString: function toLocaleString()
-const hundreds = 100000
+//const hundreds = 100000
 //console.log(hundreds.toLocaleString('en-IN'));//output:-1,00,000 //In USA ()//output:-100,000
 
 // toPrecision: function toPrecision()
-const otherNumber = 23.8966
+//const otherNumber = 23.8966
 //console.log(otherNumber.toPrecision(2));//output:24//this is depend on (input)
 
 // toString: function toString()
@@ -110,7 +110,7 @@ const otherNumber = 23.8966
 //console.log(Math.max(4,3,5,6)); //output:- 6
 
 // min: function min()
-​//console.log(Math.min(4,3,5,6));
+​console.log(Math.min(4,3,5,6));
 
 // pow: function pow()
 // ​
