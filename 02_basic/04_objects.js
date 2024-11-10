@@ -43,13 +43,13 @@ const users =[
 ]
 
 users[1].email
-console.log(tinderUser);//output:-{ id: '123abc', name: 'satyam', isLoggedIn: false }
+// console.log(tinderUser);//output:-{ id: '123abc', name: 'satyam', isLoggedIn: false }
 
-console.log(Object.keys(tinderUser));//output:-[ 'id', 'name', 'isLoggedIn' ]
-console.log(Object.values(tinderUser));//output:-[ '123abc', 'satyam', false ]
-console.log(Object.entries(tinderUser));//output:-[ [ 'id', '123abc' ], [ 'name', 'satyam' ], [ 'isLoggedIn', false ] ]
+// console.log(Object.keys(tinderUser));//output:-[ 'id', 'name', 'isLoggedIn' ]
+// console.log(Object.values(tinderUser));//output:-[ '123abc', 'satyam', false ]
+// console.log(Object.entries(tinderUser));//output:-[ [ 'id', '123abc' ], [ 'name', 'satyam' ], [ 'isLoggedIn', false ] ]
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));//for used in property check
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));//for used in property check
 /*{<prototype>: Object { … }
 ​​
 __defineGetter__: function __defineGetter__()
@@ -134,6 +134,38 @@ valueOf: function valueOf()
 ​​
 <set __proto__()>: function __proto__()
 
-​
+​*/
+//*************de-structure************
 
- */}
+const course = {
+    coursename: "js in hindi",
+    price : "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor : instructor} = course // de-structure ke liye : ko use karte hain (courseInstructor ki jagah instructor aa jayega)
+console.log(instructor);  
+
+// const navbar = ({company}) => {
+
+// }     //de-structure me {}ka use hota hai 
+
+// navbar(company = "satyam")
+
+
+//(JSON):-
+// {
+//     "name" : "satyam",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+
+//array
+[
+    {},
+    {},
+    {},
+]
